@@ -10,24 +10,26 @@ function getUpper(val: string) {
 function signUpUser(name: string, email: string, isPaid: boolean) {}
 let loginUser = (name: string, email: string, isPaid: boolean = false) => {};
 
-
 signUpUser("mubarak", "mubarak@gmail.com", false);
 getUpper("mubarak");
 let Myvalue = addTwo(10);
 loginUser("m", "m@m.com");
 
-
-
 const getHello = (s: string): string => {
   return "";
 };
 
-const heros = ['thor', 'spiderman', 'ironman']
+const heros = ["thor", "spiderman", "ironman"];
 
-heros.map((hero ): string => {
-    return `hero is ${hero}` 
+heros.map((hero): string => {
+  return `hero is ${hero}`;
+});
 
-})
-
+function consoleEroor(errmsg: string): void {
+  console.log(errmsg);
+}
+function handleError(errmsg: string): never {
+  throw new Error(errmsg);
+}
 
 export {};
