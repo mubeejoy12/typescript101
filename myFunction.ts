@@ -16,8 +16,18 @@ getUpper("mubarak");
 let Myvalue = addTwo(10);
 loginUser("m", "m@m.com");
 
+
+
 const getHello = (s: string): string => {
   return "";
 };
+
+const heros = ['thor', 'spiderman', 'ironman']
+
+heros.map((hero ): string => {
+    return `hero is ${hero}` 
+
+})
+
 
 export {};
